@@ -42,7 +42,6 @@ speed_test_v6() {
 speed() {
     speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
     speed_test 'http://speedtest.mil01.softlayer.com/downloads/test100.zip' 'Softlayer, Milan, IT'
-    speed_test 'http://lg-milano.prometeus.net/100MB.test' 'Prometeus, Milan, IT'
     speed_test 'http://speedtest.as5577.net/1000mb.bin' 'Server.LU, Luxembourg, LU'
     speed_test 'https://fra-de-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Frankfurt, DE'
     speed_test 'http://speedtest.frankfurt.linode.com/100MB-frankfurt.bin' 'Linode, Frankfurt, DE'
