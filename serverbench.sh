@@ -41,19 +41,6 @@ speed_test_v6() {
 
 speed() {
     speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
-    speed_test 'https://hnd-jp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Tokyo, JP'
-    speed_test 'http://speedtest.tokyo.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
-    speed_test 'http://speedtest-blr1.digitalocean.com/100mb.test' 'DO, Bangalore, IN'
-    speed_test 'http://speedtest.che01.softlayer.com/downloads/test100.zip' 'Softlayer, Chennai, IN'
-    speed_test 'http://speedtest-sgp1.digitalocean.com/100mb.test' 'DO, Singapore, SG'
-    speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, Singapore, SG'
-    speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, Singapore, SG'
-    speed_test 'http://mirror.sg.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, Singapore, SG'
-    speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
-    speed_test 'http://mirror.hk.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, HongKong, CN'
-    speed_test 'https://syd-au-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Sydney, AUS'
-    speed_test 'http://speedtest.syd01.softlayer.com/downloads/test100.zip' 'Softlayer, Sydney, AUS'
-    speed_test 'http://speedtest.mel01.softlayer.com/downloads/test100.zip' 'Softlayer, Melbourne, AUS'
     speed_test 'http://speedtest.mil01.softlayer.com/downloads/test100.zip' 'Softlayer, Milan, IT'
     speed_test 'http://lg-milano.prometeus.net/100MB.test' 'Prometeus, Milan, IT'
     speed_test 'http://speedtest.as5577.net/1000mb.bin' 'Server.LU, Luxembourg, LU'
@@ -76,8 +63,6 @@ speed() {
     speed_test 'http://speedtest-lon1.digitalocean.com/100mb.test' 'DO, London, UK'
     speed_test 'http://speedtest.london.linode.com/100MB-london.bin' 'Linode, London, UK'
     speed_test 'http://speedtest.lon02.softlayer.com/downloads/test100.zip' 'Softlayer, London, UK'
-    speed_test 'http://speedtest.mex01.softlayer.com/downloads/test100.zip' 'Softlayer, Mexico, MX'
-    speed_test 'http://speedtest.sao01.softlayer.com/downloads/test100.zip' 'Softlayer, Brazil, BR'
     speed_test 'http://speedtest-nyc1.digitalocean.com/100mb.test' 'DO 1, NYC, USA'
     speed_test 'http://speedtest-nyc2.digitalocean.com/100mb.test' 'DO 2, NYC, USA'
     speed_test 'http://speedtest-nyc3.digitalocean.com/100mb.test' 'DO 3, NYC, USA'
@@ -99,11 +84,7 @@ speed() {
     speed_test 'http://speedtest-sfo1.digitalocean.com/100mb.test' 'DO, San Francisco, USA'
     speed_test 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, Fremont, USA'
     speed_test 'http://mirror.sfo12.us.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, San Francisco, USA'
-    speed_test 'http://speedtest-tor1.digitalocean.com/100mb.test' 'DO, Toronto, CA'
-    speed_test 'http://bhs.proof.ovh.net/files/100Mb.dat' 'OVH, Beauharnois, CA'
-    speed_test 'http://speedtest2.eastlink.ca/superlarge.bin' 'EastLink, Canada, CA'
-    speed_test 'http://speedtest.tele2.net/100MB.zip' 'Tele2, Canada, CA'
-    speed_test 'http://speedtest.mon01.softlayer.com/downloads/test100.zip' 'Softlayer, Montreal, CA'
+
 }
 
 speed_v6() {
