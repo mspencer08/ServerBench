@@ -70,9 +70,7 @@ speed() {
     speed_test 'https://il-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Illinois, USA'
     speed_test 'https://ga-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Atlanta, USA'
     speed_test 'http://speedtest.atlanta.linode.com/100MB-atlanta.bin' 'Linode, Atlanta, USA'
-    speed_test 'https://fl-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Miami, USA'
     speed_test 'https://wa-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Washington, USA'
-    speed_test 'http://speedtest.sea01.softlayer.com/downloads/test100.zip' 'Softlayer, Seattle, USA'
     speed_test 'http://mirror.wdc1.us.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, Washington, USA'
     speed_test 'https://tx-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Dallas, USA'
     speed_test 'http://speedtest.dallas.linode.com/100MB-dallas.bin' 'Linode, Dallas, USA'
@@ -81,7 +79,6 @@ speed() {
     speed_test 'https://lax-ca-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Los Angeles, USA'
     speed_test 'http://speedtest-sfo2.digitalocean.com/100mb.test' 'DO, San Francisco, USA'
     speed_test 'http://speedtest-sfo1.digitalocean.com/100mb.test' 'DO, San Francisco, USA'
-    speed_test 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, Fremont, USA'
     speed_test 'http://mirror.sfo12.us.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, San Francisco, USA'
 
 }
